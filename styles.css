@@ -8,13 +8,17 @@
   background: #ccc;
   border: 1px solid #000;
   border-radius: 5px;
-  display: inline-block;
   text-decoration: none;
   color: #000;
-  transition: .5s;
+  transition: 2s;
+  display: block;
+  width: 25%;
+  margin: 50px auto;
+  text-align: center;
 }
 
 .button:hover {
   background: #333;
   color: #fff;
+  transform: rotate(900deg);
 }
